@@ -1,7 +1,7 @@
-import React, { useContext, useState, useEffect } from 'react'
+import React, { useContext, useEffect } from 'react'
 import {userContext} from '../Context/Store'
 
-function PageTwo() {
+function About() {
     let {user, changeUser}=useContext(userContext)
     useEffect(() => {
         changeUser();
@@ -17,4 +17,4 @@ function PageTwo() {
     )
 }
 
-export default PageTwo
+export default About

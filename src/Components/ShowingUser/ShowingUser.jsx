@@ -11,7 +11,7 @@ function ShowingUser() {
     function addUser(e) {
         e.preventDefault();
         localStorage.setItem("userName",`${user.fName} ${user.sName}`);
-        navigation('/pageTwo');
+        navigation('/about');
     }
     return (
         <>
